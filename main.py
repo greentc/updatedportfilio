@@ -68,37 +68,6 @@ class MainHandler(webapp2.RequestHandler):
     			
 
 
-
-
-        # try:
-        # 	template = JINJA_ENVIRONMENT.get_template('templates%s' % self.request.path)
-        # 	logging.info("Attempting to determine path.")
-
-        # 	if self.request.path == '/projects.html':
-        # 		template = JINJA_ENVIRONMENT.get_template('templates/projects.html')
-        # 		self.response.write(template.render())
-        # 		logging.info("Projects page")
-
-        # 	elif self.requst.path == '/contact.html':
-        # 		template = JINJA_ENVIRONMENT.get_template('templates/contact.html')
-        # 		self.response.write(template.render())
-        # 		logging.info("Contact Me page")
-
-        # 	elif self.request.path == '/journey.html':
-        # 		template = JINJA_ENVIRONMENT.get_template('templates/journey.html')
-        # 		self.response.write(template.render())
-        # 		logging.info("Terrence Journey page")
-
-        # 	else: 
-        # 		self.response.write(template.render())
-        # 		logging.info("Home page")		
-
-        # except:
-        # 	template = JINJA_ENVIRONMENT.get_template('templates/home.html')
-        # 	self.response.write(template.render())
-        # 	logging.info("No path requested, page rendered manually")	
-
-
 app = webapp2.WSGIApplication([
     ('/', MainHandler),
 	('/home.html', MainHandler),

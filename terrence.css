@@ -22,19 +22,9 @@ footer {
 }
 
 
-
-
-
-
-.home a.home,
-.contact a.contact,
-.journey a.journey,
-.projects a.projects {
-	background:red;
-	color:white;
+nav.active { 
+    background-color: yellow;
 }
-
-
 
 img.terrence {
     width: 100%;
