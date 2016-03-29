@@ -1,0 +1,42 @@
+/*body {
+	background-image: url("http://revelwallpapers.net/d/736F325671483234354B4C4A6C344B4777494346314E445A724B695869513D3D/planet_space_sun_light_stars.jpg");
+}
+*/
+body {
+	background-image: url("http://i.imgur.com/r7L2fyP.jpg?1");
+	background-position: center center
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+div.six.columns {
+	color: white;
+	float: right
+}
+
+footer {
+	color:white;
+}
+
+
+
+
+
+
+.home a.home,
+.contact a.contact,
+.journey a.journey,
+.projects a.projects {
+	background:red;
+	color:white;
+}
+
+
+
+img.terrence {
+    width: 100%;
+    height: auto;
+}

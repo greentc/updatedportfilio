@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Terrence Green</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="/static/css/normalize.css">
+  <link rel="stylesheet" href="/static/css/skeleton.css">
+  <link rel="stylesheet" href="/static/css/terrence.css">
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+ 
+
+<h1 class = "header">
+  <div class = "container">
+    <div class = "row">
+      <div class = "twelve columns">Terrence Green</div>
+    </div>
+  </div>
+</h1>      
+
+
+</head>
+<!-- Nagivation Layout -->
+<nav class = "navigation">
+  <div class = "container">
+    <div class = "row">
+      <ul>
+        <div class = "three columns"><a href="/home.html" class = "home">Home</a></div>
+        <div class = "three columns"><a href="/projects.html" class = "projects">Projects</a></div>
+        <div class = "three columns"><a href="/journey.html" class = "journey">Journey</a></div>
+        <div class = "three columns"><a href="/contact.html" class= "contact" >Contact</a></div>
+      </ul>
+    </div>
+  </div>
+</nav>      
+
+
+
+<body>
+
+{% block content %}
+  I should never see this content.  It should be replaced.
+{% endblock %}
+
+
+
+
+<footer>
+  <div class = "container">
+    <div class = "row">
+      <div class = "twelve columns">
+        <h5>&copy 2016 Terrence Green.</h5>
+        <div id="fb-root"></div>
+          <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1073265749374781";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
+        <div class="fb-like" data-href="https://www.facebook.com/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+        <a href="https://twitter.com/mattt_man11" class="twitter-follow-button" data-show-count="false">Follow @mattt_man11</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <style>.ig-b- { display: inline-block; }
+        .ig-b- img { visibility: hidden; }
+        .ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+        .ig-b-32 { width: 32px; height: 32px; background: url(//badges.instagram.com/static/images/ig-badge-sprite-32.png) no-repeat 0 0; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+        .ig-b-32 { background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-32@2x.png); background-size: 60px 178px; } }</style>
+        <a href="https://www.instagram.com/chilledgreentea/?ref=badge" class="ig-b- ig-b-32"><img src="//badges.instagram.com/static/images/ig-badge-32.png" alt="Instagram" /></a>
+      </div>
+    </div>
+  </div>
+</footer>        
+
+
+
+</body>
+
+</html>
