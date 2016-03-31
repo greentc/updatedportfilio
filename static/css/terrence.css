@@ -1,0 +1,180 @@
+/*body {
+	background-image: url("http://revelwallpapers.net/d/736F325671483234354B4C4A6C344B4777494346314E445A724B695869513D3D/planet_space_sun_light_stars.jpg");
+}
+*/
+body {
+/*	background-image: url("http://i.imgur.com/r7L2fyP.jpg?1");
+*/	background-position: center center;
+	background-image: url("http://i.imgur.com/I6DRBfV.png?1");
+}
+
+h1  {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+div.six.columns {
+	color: white;
+}
+div.twelve.columns.taco {
+	color: white;
+	font-style: inherit;
+}
+
+div.four.columns {
+	color: white;
+
+}
+
+
+
+
+footer {
+	color:white;
+	text-align: center;
+	text-decoration: inherit;
+	font-size: inherit;
+
+}
+]
+img.terrence {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+
+h2 {
+	text-align: center;
+	color: black;
+	font-weight: bold;
+
+}
+
+
+
+.formcenter {
+	text-align: center
+}
+
+
+.separator {
+  position: relative;
+  margin-bottom: 1.7em;
+  padding-bottom: 1.7em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: inherit;
+}
+.separator:before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 86px;
+  height: 2px;
+  background-color: #222;
+ 
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.separator.orange:before {
+  background-color: #d87843;
+}
+
+
+
+
+.linkmaking {
+  list-style: square;
+  text-align: center
+}
+.linkmaking li {
+  display: inline-block;
+  margin: 0 .5em;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+.linkmaking li a {
+  color: inherit;
+  text-decoration: underline;
+}
+.linkmaking li.active {
+	font-weight: bold;
+	text-decoration: underline; ;
+}
+
+
+
+.work-items {
+  list-style: none;
+  width: 100%;
+  display: inline-block;
+}
+.work-items li {
+  position: relative;
+  overflow: hidden;
+  height: 360px;
+ 
+  /* important because we need to overwrite the default skeleton */
+  margin: 0!important;
+  width: 33%;
+  border: 10px solid white;
+ 
+  position: relative;
+}
+.work-items li:nth-child(4n) {
+  margin-left: 0;
+}
+.work-items li img{
+  width: auto;
+  height: 100%;
+  display: inline-block;
+}
+/* Work detail */
+ 
+.work-detail {
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+ 
+/*  opacity: 0;
+*/  background: rgba(0,0,0,.75);
+  color: white;
+ 
+/*  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;*/
+}
+.work-detail h3 {
+  font-size: 16px;
+  letter-spacing: .05em;
+  text-align: center;
+}
+.work-detail p {
+  font-size: 20px;
+  text-transform: capitalize;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+ 
+.work-items li:hover .work-detail{
+  opacity: 1;
+  box-shadow: inset 0 0 0 10px #222;
+}
+
+
+nav .active {
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: bold;
+
+
+	}
+
